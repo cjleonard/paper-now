@@ -1,38 +1,32 @@
 # Note: to avoid repeating the same data multiple times,
 # identifiers (starting with "&") are referenced later (starting with "*")
 
-title: "My First Article"
+title: "Dronedarone-digoxin interaction in PALLAS: A foxglove connection?"
 date: 2015-03-15T12:00:00Z
-doi: # e.g. 10.1234/example.1
-github: # e.g. user-name/paper-now
+doi: 10.5339/gcsp.2015.4
+github: cjleonard/paper-now
 
 authors:
-  - &alice-exemplar
-    id: "alice-exemplar"
-    name: "Alice Exemplar"
-    email: "alice.exemplar@example.com"
-    url: http://example.com/authors/1
+  - &maghawry
+    id: "maghawry"
+    name: "Mohamed ElMaghawry"
+    email: "Maghawry79@gmail.com"
+    url: http://www.researchgate.net/profile/Mohamed_Elmaghawry
     orcid: "0000-0002-9298-3168"
 
-  - &bob-exemplar
-    id: "bob-exemplar"
-    name: "Bob Exemplar"
+  - &farouk
+    id: "farouk"
+    name: "Mahmoud Farouk"
     orcid: "0000-0002-9341-7985"
 
 affiliations:
-  - name: "Stanford University"
-    department: "Department of Mathematics"
-    location: "Stanford, California, USA"
-    url: http://mathematics.stanford.edu/
+  - name: "Aswan Heart Centre"
+    department: "Department of Cardiology"
+    location: "Kasr ElHajjar, Aswan, Egypt"
+    url: http://aswanheartcentre.com
     members:
-      - *alice-exemplar
-      - *bob-exemplar
-
-  - name: "Harvard University"
-    department: "Department of Molecular and Cellular Biology"
-    location: "Cambridge, MA, USA"
-    members:
-      - *alice-exemplar
+      - *maghawry
+      - *farouk
 
 funders:
   - name: "Medical Research Council"
